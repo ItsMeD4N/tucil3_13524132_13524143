@@ -2,8 +2,10 @@
 #include <iostream>
 #include <fstream>
 
-bool Map::load(const std::string& filename) {
-    std::ifstream file(filename);
+using namespace std;
+
+bool Map::load(const string& filename) {
+    ifstream file(filename);
     if (!file) return false;
 
     if (!(file >> rows >> cols)) return false;
@@ -13,14 +15,14 @@ bool Map::load(const std::string& filename) {
         file >> grid[r];
     }
 
-    costs.resize(rows, std::vector<int>(cols));
+    costs.resize(rows, vector<int>(cols));
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < cols; ++c) {
             file >> costs[r][c];
         }
     }
 
-    std::vector<Point> temp_wp(10, Point{-1, -1});
+    vector<Point> temp_wp(10, Point{-1, -1});
     int max_wp = -1;
 
     for (int r = 0; r < rows; ++r) {
@@ -52,20 +54,20 @@ void Map::printMap(const State& state) const {
     for (int r = 0; r < rows; ++r) {
         for (int c = 0; c < grid[r].size(); ++c) {
             if (r == state.r && c == state.c) {
-                std::cout << 'Z';
+                cout << 'Z';
             } else {
                 char ch = grid[r][c];
                 if (ch >= '0' && ch <= '9') {
                     if ((ch - '0') < state.mask) {
-                        std::cout << '*';
+                        cout << '*';
                     } else {
-                        std::cout << ch;
+                        cout << ch;
                     }
                 } else {
-                    std::cout << ch;
+                    cout << ch;
                 }
             }
         }
-        std::cout << '\n';
+        cout << '\n';
     }
 }

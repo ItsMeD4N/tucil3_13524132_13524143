@@ -2,7 +2,7 @@
 XXXXXXX
 X0****X
 X**X**X
-X***OXX
+X***OX
 X1***LX
 XZ**X*X
 XXXXXXX

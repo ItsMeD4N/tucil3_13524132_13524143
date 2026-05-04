@@ -2,6 +2,8 @@
 #include <queue>
 #include <cmath>
 
+using namespace std;
+
 struct CmpUCS {
     bool operator()(const Node& a, const Node& b) const {
         return a.g > b.g;
@@ -80,13 +82,13 @@ double computeHeuristic(int h_type, const Map& map, const State& state) {
         target = map.goal;
     }
 
-    double dx = std::abs(state.r - target.r);
-    double dy = std::abs(state.c - target.c);
+    double dx = abs(state.r - target.r);
+    double dy = abs(state.c - target.c);
 
     if (h_type == 1) {
         return dx + dy;
     } else if (h_type == 2) {
-        return std::sqrt(dx * dx + dy * dy);
+        return sqrt(dx * dx + dy * dy);
     } else if (h_type == 3) {
         int unvisited = map.total_waypoints - state.mask;
         return unvisited * 10.0 + (dx + dy);
@@ -96,12 +98,12 @@ double computeHeuristic(int h_type, const Map& map, const State& state) {
 
 template <typename Cmp>
 Node runSearch(const Map& map, int h_type, int& iterations, bool use_h, bool is_gbfs) {
-    std::priority_queue<Node, std::vector<Node>, Cmp> pq;
-    std::vector<std::vector<std::vector<int>>> best_cost(
-        map.rows, std::vector<std::vector<int>>(map.cols, std::vector<int>(map.total_waypoints + 1, 1e9))
+    priority_queue<Node, vector<Node>, Cmp> pq;
+    vector<vector<vector<int>>> best_cost(
+        map.rows, vector<vector<int>>(map.cols, vector<int>(map.total_waypoints + 1, 1e9))
     );
-    std::vector<std::vector<std::vector<bool>>> visited(
-        map.rows, std::vector<std::vector<bool>>(map.cols, std::vector<bool>(map.total_waypoints + 1, false))
+    vector<vector<vector<bool>>> visited(
+        map.rows, vector<vector<bool>>(map.cols, vector<bool>(map.total_waypoints + 1, false))
     );
 
     Node start_node;
@@ -164,7 +166,7 @@ Node runSearch(const Map& map, int h_type, int& iterations, bool use_h, bool is_
     return Node{{-1, -1, -1}, -1, -1, ""};
 }
 
-Node solve(const Map& map, const std::string& algo, const std::string& heuristic_str, int& iterations) {
+Node solve(const Map& map, const string& algo, const string& heuristic_str, int& iterations) {
     int h_type = 1;
     if (heuristic_str == "H1") h_type = 1;
     else if (heuristic_str == "H2") h_type = 2;
@@ -174,7 +176,7 @@ Node solve(const Map& map, const std::string& algo, const std::string& heuristic
         return runSearch<CmpUCS>(map, h_type, iterations, false, false);
     } else if (algo == "GBFS") {
         return runSearch<CmpGBFS>(map, h_type, iterations, true, true);
-    } else { // A*
+    } else { 
         return runSearch<CmpAStar>(map, h_type, iterations, true, false);
     }
 }
