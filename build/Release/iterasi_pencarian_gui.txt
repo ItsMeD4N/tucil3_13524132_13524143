@@ -1,0 +1,173 @@
+Algoritma: A*
+Heuristic: H2
+Total iterasi: 13
+
+Iterasi 1
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 2
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 4.47214
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 3
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 2.82843
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 4
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 5
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 4.47214
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 6
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 7
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 8
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 5
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 9
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 4.47214
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 10
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 2.82843
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 11
+Posisi: (3, 3)
+Mask waypoint: 2
+Path: RULUDRU
+g: 78, h: 2
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 12
+Posisi: (1, 1)
+Mask waypoint: 2
+Path: RULUDU
+g: 79, h: 4.47214
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 13
+Posisi: (3, 5)
+Mask waypoint: 2
+Path: RULUDRUR
+g: 87, h: 0
+XXXXXXX
+X*****X
+X**X**X
+X****ZX
+X****LX
+X***X*X
+XXXXXXX
+

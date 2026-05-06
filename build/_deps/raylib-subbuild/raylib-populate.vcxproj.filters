@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\6126fcfa765ebe86104554a309a1ad8a\raylib-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\59d024379f035485943da63766936f06\raylib-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\821776b84d2cd6c0348a8e33e74366b6\raylib-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-subbuild\CMakeFiles\raylib-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57C8F373-10A6-3C06-8A1E-5C03E14E68C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

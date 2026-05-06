@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/821776b84d2cd6c0348a8e33e74366b6/raylib-populate.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/59d024379f035485943da63766936f06/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-build.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-download.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-install.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-test.rule"
+		},
+		{
+			"file" : "D:/Semester 4/STIMA/Tucil/Tucil_3/tucil3-stima/build/_deps/raylib-subbuild/CMakeFiles/6126fcfa765ebe86104554a309a1ad8a/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

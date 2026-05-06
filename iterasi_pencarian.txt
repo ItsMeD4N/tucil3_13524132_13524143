@@ -1,0 +1,2214 @@
+Algoritma: IDA*
+Heuristic: H1
+Total iterasi: 170
+
+Iterasi 1
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 2
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 3
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 4
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 5
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 6
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 7
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 8
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 9
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 10
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 11
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 12
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 13
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 14
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 15
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 16
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 17
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 18
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 19
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 20
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 21
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 22
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 23
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 24
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 25
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 26
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 27
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 28
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 29
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 30
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 31
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 32
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 33
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 34
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 35
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 36
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 37
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 38
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 39
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 40
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 41
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 42
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 43
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 44
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 45
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 46
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 47
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 48
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 49
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 50
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 51
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 52
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 53
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 54
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 55
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 56
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 57
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 58
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 59
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 60
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 61
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 62
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 63
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 64
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 65
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 66
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 67
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 68
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 69
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 70
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 71
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 72
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 73
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 74
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 75
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 76
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 77
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 78
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 79
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 80
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 81
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 82
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 83
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 84
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 85
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 86
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 87
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 88
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 89
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 90
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 91
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 92
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 93
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 94
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 95
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 96
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 97
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 98
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 99
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 100
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 101
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 102
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 103
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 104
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 105
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 106
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 107
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 108
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 109
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 110
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 111
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 112
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 113
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 114
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 115
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 116
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 117
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 118
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 119
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 120
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 121
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 122
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 123
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 124
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 125
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 126
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 127
+Posisi: (3, 3)
+Mask waypoint: 2
+Path: RULUDRU
+g: 78, h: 2
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 128
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 129
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 130
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 131
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 132
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 133
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 134
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 135
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 136
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 137
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 138
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 139
+Posisi: (1, 1)
+Mask waypoint: 2
+Path: RULUDU
+g: 79, h: 6
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 140
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 141
+Posisi: (3, 3)
+Mask waypoint: 2
+Path: RULUDRU
+g: 78, h: 2
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 142
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 143
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 144
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 145
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 146
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 147
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 148
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 149
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 150
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 151
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 152
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 153
+Posisi: (1, 1)
+Mask waypoint: 2
+Path: RULUDU
+g: 79, h: 6
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 154
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 155
+Posisi: (3, 3)
+Mask waypoint: 2
+Path: RULUDRU
+g: 78, h: 2
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 156
+Posisi: (1, 5)
+Mask waypoint: 1
+Path: RULUR
+g: 53, h: 7
+XXXXXXX
+X****ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 157
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RULR
+g: 47, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 158
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RULRU
+g: 57, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 159
+Posisi: (3, 5)
+Mask waypoint: 0
+Path: RUR
+g: 26, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****ZX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 160
+Posisi: (1, 5)
+Mask waypoint: 0
+Path: RURU
+g: 36, h: 4
+XXXXXXX
+X0***ZX
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 161
+Posisi: (5, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 162
+Posisi: (5, 3)
+Mask waypoint: 0
+Path: R
+g: 7, h: 6
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 163
+Posisi: (3, 3)
+Mask waypoint: 0
+Path: RU
+g: 17, h: 4
+XXXXXXX
+X0****X
+X**X**X
+X**Z*OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 164
+Posisi: (3, 1)
+Mask waypoint: 0
+Path: RUL
+g: 27, h: 2
+XXXXXXX
+X0****X
+X**X**X
+XZ***OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 165
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RULU
+g: 37, h: 3
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X1***LX
+X***X*X
+XXXXXXX
+
+Iterasi 166
+Posisi: (5, 1)
+Mask waypoint: 2
+Path: RULUD
+g: 61, h: 6
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+XZ**X*X
+XXXXXXX
+
+Iterasi 167
+Posisi: (1, 1)
+Mask waypoint: 2
+Path: RULUDU
+g: 79, h: 6
+XXXXXXX
+XZ****X
+X**X**X
+X****OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 168
+Posisi: (5, 3)
+Mask waypoint: 2
+Path: RULUDR
+g: 68, h: 4
+XXXXXXX
+X*****X
+X**X**X
+X****OX
+X****LX
+X**ZX*X
+XXXXXXX
+
+Iterasi 169
+Posisi: (3, 3)
+Mask waypoint: 2
+Path: RULUDRU
+g: 78, h: 2
+XXXXXXX
+X*****X
+X**X**X
+X**Z*OX
+X****LX
+X***X*X
+XXXXXXX
+
+Iterasi 170
+Posisi: (3, 5)
+Mask waypoint: 2
+Path: RULUDRUR
+g: 87, h: 0
+XXXXXXX
+X*****X
+X**X**X
+X****ZX
+X****LX
+X***X*X
+XXXXXXX
+
