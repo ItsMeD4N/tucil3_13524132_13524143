@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\raudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rmodels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rshapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rtext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rtextures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\rlgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\raymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{45F86962-244F-3F34-8DBD-4000213B6B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D080DB27-63B2-3D25-8B75-77934CBBD9A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5D04F22-3D8F-38EE-A0A6-D2F2BF9F4B30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

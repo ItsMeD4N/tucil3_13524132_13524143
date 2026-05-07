@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\src\gui\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\src\gui\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\src\gui\BoardWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\src\core\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\src\core\Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Semester 4\STIMA\Tucil\Tucil_3\tucil3-stima\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D5D04F22-3D8F-38EE-A0A6-D2F2BF9F4B30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
