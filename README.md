@@ -49,6 +49,9 @@ Target executable GUI:
    - **Puzzle Map** untuk visualisasi board.
    - **Iteration Log** untuk jejak iterasi pencarian.
    - **Solution Playback & Metrics** untuk navigasi langkah solusi dan statistik run.
+   - **Visualization Options**:
+     - **Show Process (iterations)**: menampilkan urutan state yang dikunjungi selama proses pencarian (iterasi algoritma).
+     - **Show Solved Playback**: menampilkan urutan langkah dari solusi akhir yang ditemukan (dari start sampai goal).
 6. Klik **Save Solution** untuk menyimpan hasil ke file.
 
 ## Format Input
