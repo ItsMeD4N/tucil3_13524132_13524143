@@ -48,6 +48,8 @@ private:
     double autoplay_step_seconds_;
     std::string status_message_;
     double status_until_;
+    bool warning_open_;
+    std::string warning_message_;
     std::filesystem::path exe_dir_;
     bool window_maximized_;
     Font ui_font_;
@@ -61,6 +63,7 @@ private:
     enum class PickerTarget { None, Map, Cost, Algo, Heuristic };
     PickerTarget picker_target_;
     bool picker_open_;
+    int picker_scroll_;
 
     BoardWidget board_widget_;
 
@@ -72,6 +75,7 @@ private:
     void drawIterLogPanel(const Rectangle& panel);
     void drawBottomPanel(const Rectangle& panel);
     void drawLogOverlay();
+    void drawWarningPopup();
 
     // helpers
     bool button(const Rectangle& rect, const char* label, Color bg, Color fg = WHITE) const;

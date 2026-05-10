@@ -1,0 +1,313 @@
+>> Masukan file input :
+   test/input/input2.txt
+>> Algoritma apa yang anda pilih? (UCS/BFS/GBFS/A*/IDA*)
+   GBFS
+>> Heuristic apa yang anda pilih? (H1/H2/H3)
+   H2
+
+===== KONFIGURASI / ITERASI PENCARIAN =====
+Total iterasi: 20
+
+Iterasi 1
+Posisi: (1, 1)
+Mask waypoint: 0
+Path: 
+g: 0, h: 3.16228
+XXXXXXXXX
+XZ***X**X
+X*X*0X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 2
+Posisi: (1, 4)
+Mask waypoint: 0
+Path: R
+g: 3, h: 1
+XXXXXXXXX
+X***ZX**X
+X*X*0X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 3
+Posisi: (4, 1)
+Mask waypoint: 0
+Path: D
+g: 3, h: 3.60555
+XXXXXXXXX
+X****X**X
+X*X*0X*OX
+X*X***X*X
+XZ**X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 4
+Posisi: (4, 3)
+Mask waypoint: 0
+Path: DR
+g: 5, h: 2.23607
+XXXXXXXXX
+X****X**X
+X*X*0X*OX
+X*X***X*X
+X**ZX***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 5
+Posisi: (1, 3)
+Mask waypoint: 0
+Path: DRU
+g: 8, h: 1.41421
+XXXXXXXXX
+X**Z*X**X
+X*X*0X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 6
+Posisi: (3, 4)
+Mask waypoint: 1
+Path: RD
+g: 5, h: 4.24264
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X*Z*X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 7
+Posisi: (3, 3)
+Mask waypoint: 1
+Path: RDL
+g: 6, h: 3.60555
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*XZ**X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 8
+Posisi: (4, 3)
+Mask waypoint: 1
+Path: RDLD
+g: 7, h: 2.82843
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X***X*X
+X**ZX***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 9
+Posisi: (4, 1)
+Mask waypoint: 1
+Path: RDLDL
+g: 9, h: 2
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X***X*X
+XZ**X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 10
+Posisi: (3, 5)
+Mask waypoint: 1
+Path: RDR
+g: 6, h: 5
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X**ZX*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 11
+Posisi: (4, 5)
+Mask waypoint: 1
+Path: RDRD
+g: 7, h: 4.47214
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X***X*X
+X***XZ**X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 12
+Posisi: (1, 1)
+Mask waypoint: 1
+Path: RDLDLU
+g: 12, h: 5
+XXXXXXXXX
+XZ***X**X
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 13
+Posisi: (1, 3)
+Mask waypoint: 1
+Path: RDLU
+g: 8, h: 5.38516
+XXXXXXXXX
+X**Z*X**X
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 14
+Posisi: (1, 4)
+Mask waypoint: 1
+Path: RDLDLUR
+g: 15, h: 5.83095
+XXXXXXXXX
+X***ZX**X
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 15
+Posisi: (4, 7)
+Mask waypoint: 1
+Path: RDRDR
+g: 9, h: 6.32456
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X***X*X
+X***X**ZX
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 16
+Posisi: (7, 7)
+Mask waypoint: 1
+Path: RDRDRD
+g: 12, h: 6.08276
+XXXXXXXXX
+X****X**X
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L**ZX
+XXXXXXXXX
+
+Iterasi 17
+Posisi: (1, 7)
+Mask waypoint: 1
+Path: RDRDRU
+g: 12, h: 7.81025
+XXXXXXXXX
+X****X*ZX
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 18
+Posisi: (1, 6)
+Mask waypoint: 1
+Path: RDRDRUL
+g: 13, h: 7.07107
+XXXXXXXXX
+X****XZ*X
+X*X**X*OX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 19
+Posisi: (2, 6)
+Mask waypoint: 1
+Path: RDRDRULD
+g: 14, h: 6.40312
+XXXXXXXXX
+X****X**X
+X*X**XZOX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Iterasi 20
+Posisi: (2, 7)
+Mask waypoint: 1
+Path: RDRDRULDR
+g: 15, h: 7.2111
+XXXXXXXXX
+X****X**X
+X*X**X*ZX
+X*X***X*X
+X***X***X
+XX*X*X**X
+X1***X2*X
+X***L***X
+XXXXXXXXX
+
+Solusi tidak ditemukan!
+>> Waktu eksekusi: 0.04620 ms
+>> Banyak iterasi yang dilakukan: 20 iterasi

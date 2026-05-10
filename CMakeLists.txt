@@ -5,6 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 option(TUCIL3_PORTABLE_BUILD "Build portable binaries with static MSVC runtime" ON)
+set(TUCIL3_BIN_DIR "${CMAKE_SOURCE_DIR}/bin")
+
+# Place executables in <project>/bin instead of the build tree.
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${TUCIL3_BIN_DIR}")
+if(CMAKE_CONFIGURATION_TYPES)
+    foreach(_cfg ${CMAKE_CONFIGURATION_TYPES})
+        string(TOUPPER "${_cfg}" _cfg_upper)
+        set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_${_cfg_upper} "${TUCIL3_BIN_DIR}")
+    endforeach()
+endif()
 
 if(MSVC AND TUCIL3_PORTABLE_BUILD)
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")

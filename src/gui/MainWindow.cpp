@@ -90,6 +90,8 @@ MainWindow::MainWindow()
       last_autoplay_step_(0.0),
       autoplay_step_seconds_(0.35),
       status_until_(0.0),
+      warning_open_(false),
+      warning_message_(""),
       exe_dir_(std::filesystem::current_path()),
       window_maximized_(false),
       ui_font_{},
@@ -101,7 +103,8 @@ MainWindow::MainWindow()
       map_pick_index_(-1),
       cost_pick_index_(-1),
       picker_target_(PickerTarget::None),
-      picker_open_(false) {
+      picker_open_(false),
+      picker_scroll_(0) {
     map_field_ = {{22.0f, 170.0f, 360.0f, 34.0f}, "test/input/input.txt", false};
     cost_field_ = {{22.0f, 225.0f, 360.0f, 34.0f}, "", false};
 }
@@ -169,6 +172,7 @@ void MainWindow::handleInput() {
     if (IsKeyPressed(KEY_ESCAPE)) {
         picker_open_ = false;
         picker_target_ = PickerTarget::None;
+        picker_scroll_ = 0;
     }
 }
 
@@ -197,6 +201,9 @@ void MainWindow::draw() {
     drawBoardPanel(board_panel);
     drawIterLogPanel(log_panel);
     drawBottomPanel(bottom);
+    if (warning_open_) {
+        drawWarningPopup();
+    }
 
     if (!status_message_.empty() && GetTime() <= status_until_) {
         drawUiText(status_message_, 20, sh - 26.0f, 18, YELLOW);
@@ -301,12 +308,14 @@ void MainWindow::drawConfigPanel(const Rectangle& panel) {
         const bool same_target = (picker_target_ == PickerTarget::Map);
         picker_target_ = PickerTarget::Map;
         picker_open_ = same_target ? !picker_open_ : true;
+        picker_scroll_ = 0;
     }
     if (button(cost_btn, "Pilih", kButtonDark)) {
         refreshTxtCandidates();
         const bool same_target = (picker_target_ == PickerTarget::Cost);
         picker_target_ = PickerTarget::Cost;
         picker_open_ = same_target ? !picker_open_ : true;
+        picker_scroll_ = 0;
     }
 
     if (picker_open_ && picker_target_ != PickerTarget::None) {
@@ -329,33 +338,82 @@ void MainWindow::drawConfigPanel(const Rectangle& panel) {
             options = heur_options;
         }
 
-        const int total_rows = std::min(static_cast<int>(options.size()), max_rows);
-        Rectangle list_rect{anchor.x, anchor.y + anchor.height + 4.0f, anchor.width, static_cast<float>(total_rows * row_h + 6)};
+        const bool is_file_picker = (picker_target_ == PickerTarget::Map || picker_target_ == PickerTarget::Cost);
+        const int visible_rows = is_file_picker ? 3 : max_rows;
+        const int total_rows = std::min(static_cast<int>(options.size()), visible_rows);
+        const bool needs_scroll = is_file_picker && static_cast<int>(options.size()) > visible_rows;
+        const int max_start = std::max(0, static_cast<int>(options.size()) - visible_rows);
+        picker_scroll_ = std::clamp(picker_scroll_, 0, max_start);
+
+        Rectangle list_rect{anchor.x, anchor.y + anchor.height + 4.0f, anchor.width, static_cast<float>(std::max(1, total_rows) * row_h + 6)};
+        const float scroll_w = needs_scroll ? 24.0f : 0.0f;
+        Rectangle items_rect{list_rect.x, list_rect.y, list_rect.width - scroll_w, list_rect.height};
+
+        if (needs_scroll && CheckCollisionPointRec(GetMousePosition(), list_rect)) {
+            const int wheel = static_cast<int>(GetMouseWheelMove());
+            if (wheel != 0) {
+                picker_scroll_ = std::clamp(picker_scroll_ - wheel, 0, max_start);
+            }
+        }
+
         DrawRectangleRec(list_rect, kInputBg);
         DrawRectangleLinesEx(list_rect, 1.0f, kOutline);
 
         if (options.empty()) {
-            drawUiText("Tidak ada pilihan.", list_rect.x + 8, list_rect.y + 6, 16, GRAY);
+            drawUiText("Tidak ada pilihan.", items_rect.x + 8, items_rect.y + 6, 16, GRAY);
         } else {
+            int start_index = 0;
+            if (needs_scroll) {
+                start_index = picker_scroll_;
+            }
             for (int i = 0; i < total_rows; ++i) {
-                Rectangle row{list_rect.x + 3, list_rect.y + 3 + i * row_h, list_rect.width - 6, static_cast<float>(row_h - 2)};
-                std::string option_label = options[i];
+                const int option_index = start_index + i;
+                if (option_index < 0 || option_index >= static_cast<int>(options.size())) break;
+                Rectangle row{items_rect.x + 3, items_rect.y + 3 + i * row_h, items_rect.width - 6, static_cast<float>(row_h - 2)};
+                std::string option_label = options[option_index];
                 if (picker_target_ == PickerTarget::Map || picker_target_ == PickerTarget::Cost) {
-                    option_label = displayFileName(options[i]);
+                    option_label = displayFileName(options[option_index]);
                 }
                 if (button(row, option_label.c_str(), ColorAlpha(kButtonDark, 0.65f), kText)) {
                     if (picker_target_ == PickerTarget::Map) {
-                        map_field_.value = options[i];
+                        map_field_.value = options[option_index];
                     } else if (picker_target_ == PickerTarget::Cost) {
-                        cost_field_.value = options[i];
+                        cost_field_.value = options[option_index];
                     } else if (picker_target_ == PickerTarget::Algo) {
-                        algo_index_ = i;
+                        algo_index_ = option_index;
                     } else if (picker_target_ == PickerTarget::Heuristic) {
-                        heuristic_index_ = i;
+                        heuristic_index_ = option_index;
                     }
                     picker_open_ = false;
                     picker_target_ = PickerTarget::None;
+                    picker_scroll_ = 0;
                 }
+            }
+
+            if (needs_scroll) {
+                Rectangle scroll_area{list_rect.x + list_rect.width - scroll_w, list_rect.y, scroll_w, list_rect.height};
+                DrawRectangleRec(scroll_area, ColorAlpha(kButtonDark, 0.5f));
+                DrawRectangleLinesEx(scroll_area, 1.0f, kOutline);
+
+                Rectangle up_btn{scroll_area.x + 2, scroll_area.y + 2, scroll_area.width - 4, 22};
+                Rectangle down_btn{scroll_area.x + 2, scroll_area.y + scroll_area.height - 24, scroll_area.width - 4, 22};
+                if (button(up_btn, "^", kButtonDark, kText)) {
+                    picker_scroll_ = std::max(0, picker_scroll_ - 1);
+                }
+                if (button(down_btn, "v", kButtonDark, kText)) {
+                    picker_scroll_ = std::min(max_start, picker_scroll_ + 1);
+                }
+
+                const float track_y = up_btn.y + up_btn.height + 2.0f;
+                const float track_h = down_btn.y - 2.0f - track_y;
+                Rectangle track{scroll_area.x + 7, track_y, scroll_area.width - 14, track_h};
+                DrawRectangleRec(track, ColorAlpha(kInputBg, 0.7f));
+
+                const float thumb_h = std::max(12.0f, track.height * (static_cast<float>(visible_rows) / static_cast<float>(options.size())));
+                const float ratio = (max_start == 0) ? 0.0f : static_cast<float>(picker_scroll_) / static_cast<float>(max_start);
+                const float thumb_y = track.y + ratio * std::max(0.0f, track.height - thumb_h);
+                Rectangle thumb{track.x, thumb_y, track.width, thumb_h};
+                DrawRectangleRec(thumb, kButtonAccent);
             }
         }
     }
@@ -535,6 +593,23 @@ void MainWindow::drawLogOverlay() {
     for (int i = start; i < static_cast<int>(run_output_lines_.size()) && i < start + visible_lines; ++i) {
         drawUiText(run_output_lines_[i], panel.x + 16, static_cast<float>(y), 18, kText);
         y += 22;
+    }
+}
+
+void MainWindow::drawWarningPopup() {
+    const float sw = static_cast<float>(GetScreenWidth());
+    const float sh = static_cast<float>(GetScreenHeight());
+    DrawRectangle(0, 0, static_cast<int>(sw), static_cast<int>(sh), ColorAlpha(BLACK, 0.55f));
+
+    Rectangle panel{sw * 0.5f - 260.0f, sh * 0.5f - 100.0f, 520.0f, 200.0f};
+    DrawRectangleRounded(panel, 0.03f, 8, Color{44, 32, 38, 245});
+    DrawRectangleLinesEx(panel, 1.5f, Color{255, 143, 143, 255});
+    drawUiText("WARNING", panel.x + 18.0f, panel.y + 14.0f, 30, Color{255, 196, 196, 255});
+    drawUiText(warning_message_, panel.x + 18.0f, panel.y + 62.0f, 19, kText);
+
+    Rectangle close_btn{panel.x + panel.width - 110.0f, panel.y + panel.height - 46.0f, 92.0f, 30.0f};
+    if (button(close_btn, "Close", Color{140, 65, 65, 255})) {
+        warning_open_ = false;
     }
 }
 
@@ -772,9 +847,13 @@ void MainWindow::runSolve() {
     autoplay_ = false;
     std::string err;
     if (!loadMapFromInputs(err)) {
+        warning_message_ = err;
+        warning_open_ = true;
         setStatus("Error: " + err, 4.0);
         return;
     }
+    warning_open_ = false;
+    warning_message_.clear();
 
     int iterations = 0;
     iteration_logs_.clear();

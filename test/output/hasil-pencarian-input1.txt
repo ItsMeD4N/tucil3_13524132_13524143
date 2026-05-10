@@ -1,5 +1,5 @@
 >> Masukan file input :
-   test/input/input.txt
+   test/input/input1.txt
 >> Algoritma apa yang anda pilih? (UCS/BFS/GBFS/A*/IDA*)
    GBFS
 >> Heuristic apa yang anda pilih? (H1/H2/H3)
@@ -153,7 +153,7 @@ XXXXXXX
 
 Solusi Yang Ditemukan : RULUDRUR
 Cost dari Solusi : 87
->> Waktu eksekusi: 0 ms
+>> Waktu eksekusi: 0.37140 ms
 >> Banyak iterasi yang dilakukan: 11 iterasi
 >> Apakah Anda ingin melakukan playback? (Ya/Tidak) : 
    Tidak

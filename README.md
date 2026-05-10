@@ -26,17 +26,17 @@ Catatan:
 Jalankan dari root project:
 
 ```bash
-cmake -S . -B build
-cmake --build build --config Release
+cmake -S . -B .cmake
+cmake --build .cmake --config Release
 ```
 
 Target executable GUI:
-- `build/Release/solver_gui.exe`
+- `bin/solver_gui.exe`
 
 ## Menjalankan Aplikasi GUI
 
 ```bash
-.\build\Release\solver_gui.exe
+.\bin\solver_gui.exe
 ```
 
 ## Cara Menggunakan GUI
